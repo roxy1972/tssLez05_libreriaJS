@@ -9,7 +9,9 @@ and open the template in the editor.
         <title>LIBRERIA JS</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="myLibrary.js"></script>
         <script src="scriptLib.js"></script>
+        
     </head>
     <body>
         <div>LIBRERIA JS</div><br/>
@@ -17,7 +19,12 @@ and open the template in the editor.
         <input id="in_nome" placeholder="ins.nominativo">
         <input id="in_voto" placeholder="ins.votazione" type="number">
         <input type="button" value="CARICA" onclick="carica()"><br/><br/>
-        <div id=div_alunni>nessun nominativo</div>
+        <div id=div_alunni>nessun nominativo</div><br/><br/>
+          
+        <input id="in_num" placeholder="ins.valore" type="number">
+        <input id="in_pot" placeholder="ins.esponente" type="number">
+        <input type="button" value="CALCOLA" onclick="calcola()"><br/><br/>
+        <div id=div_risult>0</div><br/><br/>
 
     </body>
 </html>
