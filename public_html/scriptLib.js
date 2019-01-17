@@ -11,9 +11,9 @@ var ar_voti = [];
 function carica() {
     ar_nomi.push(document.getElementById("in_nome").value);
     ar_voti.push(document.getElementById("in_voto").value);
-    //document.getElementById("div_alunni").innerHTML = createElenco(ar_nomi);
-    let myObjTag = document.getElementById("div_alunni");
-    createElencoBRObjTag(ar_nomi, myObjTag);
+    document.getElementById("div_alunni").innerHTML = createElencoOL();
+    //let myObjTag = document.getElementById("div_alunni");
+    //createElencoBRObjTag(ar_nomi, myObjTag);
 }
 
 function createElencoOL() {

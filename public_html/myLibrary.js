@@ -1,8 +1,3 @@
-/* 
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 
 function createElenco(myArray) {
     //questa funzione gli passi un array di una serie di elementi e mi restituisce un array con un br
@@ -57,6 +52,14 @@ function potenza(valore, esponente) {
     let ris = 1;
     for (i = 0; i < esponente; i++)
         ris = ris * valore;
+    return ris;
+}
+
+function somma(val1,val2){
+    let ris = 0;
+    val1=val1*1;
+    val2= val2*1;
+    ris = val1+val2;
     return ris;
 }
 
